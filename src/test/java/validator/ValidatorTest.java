@@ -74,6 +74,7 @@ public class ValidatorTest {
 
     @Test
     public void validateLaboratory() throws Exception {
+        System.out.print("fgg");
         laborator1=new Laboratory(763,"12/30/1000",-1,9,"nmig0026");
         laborator2=new Laboratory(763,"12/30/1000",0,0,"nmig0026");
         laborator3=new Laboratory(123,"-12/12/0",1,-9,"gjig0013");
