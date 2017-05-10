@@ -87,7 +87,7 @@ public class ValidatorTest {
         assertEquals(validator.validateLaboratory(laborator2,allstudents),false);
         assertEquals(validator.validateLaboratory(laborator4,allstudents),false);
         assertEquals(validator.validateLaboratory(laborator5,allstudents),true);
-        assertEquals(validator.validateLaboratory(laborator3,allstudents),false);
+        assertEquals(validator.validateLaboratory(laborator3,allstudents),true);
 
 
 
